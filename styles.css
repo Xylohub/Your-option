@@ -45,7 +45,7 @@ body{
   backdrop-filter: blur(6px);border-bottom:1px solid rgba(255,255,255,0.03);
 }
 .header-inner{max-width:var(--container);margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:rgb(226, 204, 77)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:papayawhip}
 .brand img{width:56px;height:auto;border-radius:8px;object-fit:contain}
 .brand-text{line-height:1}
 .brand-name{font-family:"Poppins",sans-serif;font-weight:700;letter-spacing:1px}
@@ -62,7 +62,7 @@ body{
 
 /* hamburger */
 .hamburger{display:none;border:0;background:transparent;padding:8px;border-radius:8px}
-.hamburger span{display:block;height:2px;width:20px;background:currentColor;margin:4px 0;border-radius:2px}
+.hamburger span{display:block;height:2px;width:20px;background:gray;margin:4px 0;border-radius:2px}
 
 /* hero */
 .hero{position:relative;height:64vh;min-height:420px;display:flex;align-items:center;justify-content:center;overflow:hidden}
@@ -123,3 +123,4 @@ body{
   .hero{height:48vh}
   .card-media{height:200px}
 }
+
