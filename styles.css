@@ -41,11 +41,11 @@ body{
 
 /* header */
 .site-header{
-  position:sticky;top:0;z-index:120;background:linear-gradient(180deg, rgba(0,0,0,0.35), transparent);
+  position:sticky;top:0;z-index:120;background:linear-gradient(180deg, rgba(0,0,0,0.35, transparent);
   backdrop-filter: blur(6px);border-bottom:1px solid rgba(255,255,255,0.03);
 }
 .header-inner{max-width:var(--container);margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:papayawhip}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:rgb(226, 204, 77)}
 .brand img{width:56px;height:auto;border-radius:8px;object-fit:contain}
 .brand-text{line-height:1}
 .brand-name{font-family:"Poppins",sans-serif;font-weight:700;letter-spacing:1px}
@@ -123,4 +123,5 @@ body{
   .hero{height:48vh}
   .card-media{height:200px}
 }
+
 
